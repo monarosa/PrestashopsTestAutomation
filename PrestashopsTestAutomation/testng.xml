@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.prestashop.utilities.TestBaseClass"/>
+      <class name="com.prestashop.tests.contactus.PhoneNumberTest"/>
+      <class name="com.prestashop.tests.registration.LoginTests"/>
+      <class name="com.amazonaws.tests.AWSCalculatorTests"/>
+      <class name="com.prestashop.tests.search.ProductDetailsTest"/>
+      <class name="com.prestashop.tests.checkout.ProductCheckoutTest"/>
+      <class name="com.prestashop.tests.search.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
